@@ -1,9 +1,10 @@
-package com.kafka.paymentservice.model;
+package com.kafka.json_consumer.model;
 
 import lombok.Getter;
+import lombok.ToString;
 
 import java.io.Serializable;
-
+@ToString
 @Getter
 public class Payment implements Serializable {
 
